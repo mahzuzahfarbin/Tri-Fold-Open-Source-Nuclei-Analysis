@@ -13,3 +13,5 @@ Here, we curated a multifold set of algorithms which provide researchers full ac
 3. Enter the env ```source activate generative-models```
 4. Install Tensorflow
 5. Install Pytorch
+
+# Test
