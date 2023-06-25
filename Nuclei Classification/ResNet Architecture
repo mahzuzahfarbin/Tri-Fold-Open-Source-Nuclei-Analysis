@@ -1,0 +1,17 @@
+ResNet (Residual Neural Network) is a deep learning architecture that was introduced in 2015 by Kaiming He et al. 
+It revolutionized the field of computer vision by addressing the problem of degradation in deep neural networks.
+
+The key idea behind ResNet is the introduction of residual connections or skip connections. These connections 
+allow the network to learn residual mappings, which are the differences between the desired output and the 
+current prediction. By propagating the error directly through these skip connections, the network can focus 
+on learning the residual functions, making it easier to train deeper networks.
+
+The ResNet architecture is characterized by the extensive use of residual blocks. 
+A residual block consists of multiple convolutional layers with shortcut connections. 
+The shortcut connections bypass one or more convolutional layers and directly connect the input to the 
+output of the residual block. This enables the gradient flow and facilitates the training of deep networks.
+
+
+The ResNet architecture has been widely used in various computer vision tasks, including image classification, 
+object detection, semantic segmentation, and more. Its effectiveness in addressing the degradation problem and 
+enabling the training of very deep networks has made it a popular choice for many applications.
